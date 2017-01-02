@@ -1,0 +1,27 @@
+{
+  "name": "@nx-js/events-middleware",
+  "version": "1.0.0",
+  "description": "An NX middleware, responsible for inline event handling.",
+  "main": "events.js",
+  "author": {
+    "name": "Miklos Bertalan",
+    "email": "miklos.bertalan@risingstack.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nx-js/events-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nx-js/events-middleware/issues"
+  },
+  "homepage": "http://nx-framework.com",
+  "license": "MIT",
+  "keywords": [
+    "nx",
+    "middleware",
+    "event"
+  ],
+  "dependencies": {
+    "@nx-js/compiler-util": "^1.0.0"
+  }
+}
