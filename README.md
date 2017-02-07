@@ -5,9 +5,8 @@ The `events` middleware allows you to use inline event handler attributes in the
 - name: events
 - middleware dependencies: none
 - all middleware dependencies: none
-- processes: element nodes
-- throws on: nothing
-- use as: component or content middleware
+- type: component or content middleware
+- ignores: text nodes
 - [docs](http://nx-framework.com/docs/middlewares/events)
 
 ## Installation
